@@ -2,6 +2,12 @@
 
 _The World's First Predictive Pricing Engine with Multi-Source RAG_
 
+## Architecture
+
+
+## Data Flow
+
+
 ## Project Structure
 
 ```
@@ -479,3 +485,4 @@ All technologies have been verified for:
   }
 }
 ```
+
