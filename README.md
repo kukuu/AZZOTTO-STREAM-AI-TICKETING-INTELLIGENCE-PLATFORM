@@ -8,36 +8,6 @@ _The World's First Predictive Pricing Engine with Multi-Source RAG_
 ## Data Flow
 
 
-## Project Structure
-
-```
-azzotto-ticketing-ai/
-├── apps/
-│   ├── api-gateway/           # Express/Fastify gateway
-│   ├── price-engine/          # ML pricing microservice
-│   ├── demand-predictor/      # LSTM demand forecasting
-│   ├── promotion-optimizer/   # RL promotion engine
-│   ├── rag-pipeline/          # RAG workflow service
-│   ├── event-ingestor/        # EVENT 2026 + Sports + 3rd party
-│   ├── notification-service/  # Real-time messaging
-│   └── monitoring/            # Prometheus + Grafana
-├── libs/
-│   ├── shared-types/          # TypeScript interfaces
-│   ├── ai-models/             # Trained ML models
-│   ├── vector-store/          # Pinecone/Qdrant client
-│   └── message-bus/           # Kafka/Redis client
-├── infrastructure/
-│   ├── k8s/                   # Kubernetes manifests
-│   ├── docker/                # Dockerfiles
-│   └── terraform/             # Cloud infra
-├── dashboard/
-│   ├── prometheus/
-│   ├── grafana/
-│   └── alertmanager/
-└── package.json
-
-```
-
 
 
 ## ✅ SUMMARY OF DELIVERABLES
