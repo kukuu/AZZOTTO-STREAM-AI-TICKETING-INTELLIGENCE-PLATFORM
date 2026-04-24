@@ -39,68 +39,6 @@ https://github.com/kukuu/AZZOTTO-STREAM-AI-TICKETING-INTELLIGENCE-PLATFORM/blob/
 
 https://github.com/kukuu/AZZOTTO-STREAM-AI-TICKETING-INTELLIGENCE-PLATFORM/blob/main/technologies.md
 
-### 8. 🛠️ DEVELOPMENT & DEPLOYMENT TOOLS
-
-| Technology | Version | Purpose |
-|:---|:---|:---|
-| **NPM** | 10.0+ | Package management |
-| **NPM Workspaces** | 10.0+ | Monorepo management |
-| **TypeScript Compiler** | 5.2+ | Build system |
-| **ESLint** | 8.50+ | Code linting |
-| **Prettier** | 3.0+ | Code formatting |
-| **Jest** | 29.7+ | Unit testing |
-| **Nodemon** | 3.0+ | Hot reload development |
-| **Concurrently** | 8.2+ | Parallel script execution |
-| **ts-node** | 10.9+ | TypeScript execution |
-| **Git** | 2.40+ | Version control |
-| **GitHub Actions** | Latest | CI/CD pipeline |
-| **Terraform** | 1.5+ | Infrastructure as Code |
-| **kubectl** | 1.28+ | K8s management |
-| **Helm** | 3.13+ | Package deployment |
-
----
-
-### 📊 TECHNOLOGY SUMMARY TABLE
-
-| Category | Count | Primary Technologies |
-|:---|:---|:---|
-| **Backend** | 6 | Node.js, TypeScript, Fastify, Express, Bull, Pino |
-| **AI/ML** | 12 | TensorFlow.js, XGBoost, LangChain, OpenAI, SPLADE |
-| **Storage** | 8 | Redis, Pinecone, Qdrant, ChromaDB, PostgreSQL |
-| **Streaming** | 5 | Kafka, KafkaJS, Redis Streams, Socket.IO, WS |
-| **Container/Orchestration** | 7 | Docker, K8s, Helm, HPA, Ingress, PVC, Kustomize |
-| **Monitoring** | 5 | Prometheus, Grafana, Alertmanager, Metrics API, Pino |
-| **Integrations** | 14 | OpenAI, SportRadar, Twilio, SendGrid, Ticketmaster, etc. |
-| **Dev Tools** | 12 | TypeScript, Jest, ESLint, Terraform, GitHub Actions |
-| **TOTAL** | **69** | **Unique technologies** |
-
----
-
-### 🎯 CRITICAL TECHNOLOGY CHOICES EXPLAINED
-
-#### Why TensorFlow.js over Python?
-- **Same ecosystem** as Node.js backend
-- **GPU acceleration** via CUDA
-- **Real-time inference** <10ms latency
-- **No serialization overhead** between Python/Node
-
-#### Why Multi-Vector (Dense + Sparse)?
-- **Dense (Pinecone)**: Semantic understanding of pricing context
-- **Sparse (Qdrant)**: Exact keyword matching for event names, dates
-- **Hybrid fusion**: 15-20% improvement in retrieval accuracy
-
-#### Why Kafka + Redis Streams?
-- **Kafka**: Persistent event sourcing, replay capability
-- **Redis Streams**: Ultra-low latency for price updates (<5ms)
-- **Dual architecture**: Durability + speed
-
-#### Why Fastify over Express?
-- **2x faster** JSON parsing
-- **Built-in validation** (JSON Schema)
-- **Native async/await** support
-- **Lower memory footprint** (30% less)
-
----
 
 ### 🚀 DEPLOYMENT FOOTPRINT
 
