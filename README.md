@@ -37,7 +37,7 @@ https://github.com/kukuu/AZZOTTO-STREAM-AI-TICKETING-INTELLIGENCE-PLATFORM/blob/
 
 ## Technologies
 
-
+https://github.com/kukuu/AZZOTTO-STREAM-AI-TICKETING-INTELLIGENCE-PLATFORM/blob/main/technologies.md
 
 ### 8. 🛠️ DEVELOPMENT & DEPLOYMENT TOOLS
 
