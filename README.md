@@ -18,7 +18,7 @@ The integration layer with `azzotto-movies` is complete. The client library (`ti
 https://github.com/kukuu/AZZOTTO-STREAM-AI-TICKETING-INTELLIGENCE-PLATFORM/blob/main/features.md
 
 
-## STATUS AI TICKETING PLATFORM 
+## STATUS: AI TICKETING PLATFORM 
 
 https://github.com/kukuu/AZZOTTO-STREAM-AI-TICKETING-INTELLIGENCE-PLATFORM/blob/main/status.md
 
