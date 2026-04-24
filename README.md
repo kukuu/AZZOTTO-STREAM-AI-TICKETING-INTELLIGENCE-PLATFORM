@@ -22,7 +22,7 @@ The integration layer with `azzotto-movies` is complete. The client library (`ti
 5. *Revenue Models* (markup, commission, transaction fee, hybrid)
 
 
-## STATUSAI TICKETING PLATFORM 
+## STATUS AI TICKETING PLATFORM 
 
 ---
 
