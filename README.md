@@ -406,8 +406,10 @@ All technologies have been verified for:
 - ✅ **Monitoring support** (Prometheus exporters)
 - ✅ **Commercial support** (enterprise-grade)
 
-## Vault - https://github.com/kukuu/azzotto-ticketing-ai (PRIVATE)
+## Vault 
 
-**The stack represents   state-of-the-art in AI-powered ticketing systems, combining real-time ML inference, RAG-based contextual intelligence, and cloud-native scalability.**
+- https://github.com/kukuu/azzotto-ticketing-ai (PRIVATE)
+
+**The stack represents state-of-the-art in AI-powered ticketing systems, combining real-time ML inference, RAG-based contextual intelligence, and cloud-native scalability.**
 
 
