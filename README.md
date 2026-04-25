@@ -4,6 +4,7 @@
 
 _The  First Predictive Pricing Engine with Multi-Source RAG_
 
+**ZIP** is an AI Ticketing Intelligence Service that predicts, optimizes, and personalizes ticket pricing and promotions using machine learning, while tracking user behavior, processing payments, and enabling resell targeting and revenue optimization.
 
 **ZIP** is a fully functional, production-ready AI ticketing intelligence system deployed as a standalone microservice. The system includes a dynamic pricing engine powered by XGBoost and LSTM ensemble models, a hybrid RAG pipeline for contextual price retrieval, and a reinforcement learning promotion optimizer that learns optimal discount strategies. All core AI components are operational and communicating over HTTP/WebSocket, with real-time price updates, demand forecasting, and personalized promotions working end-to-end.
 
@@ -12,6 +13,8 @@ The infrastructure is containerized with Docker Compose and deployed to Vercel a
 The integration layer with `azzotto-movies` is complete. The client library (`ticketing-api.client.ts`) reads environment variables to switch between localhost and production URLs, ensuring zero-code-change deployment. The two CyclingAds and TicketService components have been enhanced to fetch AI-powered prices and promotions in parallel while gracefully falling back to static data when ZIP is unavailable.
 
 **ZIP** is in production - https://www.azzottomovies.com/globalmovie/1311031 . The system successfully tags users, tracks revenue, enforces purchase controls, and calculates earnings across multiple models (markup, commission, transaction fee). Database schemas, API endpoints, and admin dashboards are implemented. **ZIP** represents a complete, deployable AI ticketing solution that supersedes existing market offerings through intelligent pricing, real-time adaptability, and full operational control.
+
+**ZIP** treats 3rd party resellers the same way an affiliate network or agent portal does. The reseller gets a portion of the ticket price (their commission), and ZIP automatically calculates and tracks what you earn.
 
 ## Features
 
