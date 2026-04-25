@@ -14,57 +14,57 @@
 
 - User Identification & Tracking
 
-Requirement	How ZIP handles it
+1. Requirement	How ZIP handles it
 
-Track previous buyers	✅ Persistent userId from existing auth system
+2. Track previous buyers	✅ Persistent userId from existing auth system
 
-Contact for resell offers	✅ email from existing auth system
+3. Contact for resell offers	✅ email from existing auth system
 
-Purchase history	✅ ZIP stores userId + eventId + quantity + totalSpent
+4. Purchase history	✅ ZIP stores userId + eventId + quantity + totalSpent
 
-Cross-session personalization	✅ AI uses purchase history to personalize future offers
+5. Cross-session personalization	✅ AI uses purchase history to personalize future offers
 
-No full profiles	✅ Only stores what auth already provides (ID + email + purchase links)
+6. No full profiles	✅ Only stores what auth already provides (ID + email + purchase links)
 
 - Payment Processing (NEW)
 
-Requirement	How ZIP handles it
+1. Requirement	How ZIP handles it
 
-Process credit card payments	✅ Stripe/PayPal integration
+2. Process credit card payments	✅ Stripe/PayPal integration
 
-Handle payment failures	✅ Retry logic + user feedback
+3. Handle payment failures	✅ Retry logic + user feedback
 
-Issue refunds	✅ Admin endpoint + API
+4. Issue refunds	✅ Admin endpoint + API
 
-Store payment records	✅ Transaction IDs linked to purchases
+5. Store payment records	✅ Transaction IDs linked to purchases
 
-PCI compliance	✅ Stripe/PayPal handle sensitive data, ZIP never sees card numbers
+6. PCI compliance	✅ Stripe/PayPal handle sensitive data, ZIP never sees card numbers
 
 - Revenue & Resell
 
-Requirement	How ZIP handles it
+1. Requirement	How ZIP handles it
 
-Target past buyers	✅ Query: "Users who bought Event X" → personalized resell offer
+2. Target past buyers	✅ Query: "Users who bought Event X" → personalized resell offer
 
-Predict who will buy again	✅ ML model identifies high-likelihood repeat buyers
+3. Predict who will buy again	✅ ML model identifies high-likelihood repeat buyers
 
-Forecast resell revenue	✅ Based on historical repeat purchase rates
+4. Forecast resell revenue	✅ Based on historical repeat purchase rates
 
-Tactical earning models	✅ Markup, commission, transaction fee, hybrid (calculated per transaction)
+5. Tactical earning models	✅ Markup, commission, transaction fee, hybrid (calculated per transaction)
 
-Track AZZOTTO earnings	✅ Each transaction records AZZOTTO fee + partner payout
+6. Track AZZOTTO earnings	✅ Each transaction records AZZOTTO fee + partner payout
 
 - Purchase Controls
 
-Requirement	How ZIP handles it
+1. Requirement	How ZIP handles it
 
-Rate limiting	✅ Max tickets per hour/day per userId
+2. Rate limiting	✅ Max tickets per hour/day per userId
 
-Quantity caps	✅ Max tickets per event per userId
+3. Quantity caps	✅ Max tickets per event per userId
 
-Fraud detection	✅ Rapid purchases, bot patterns, suspicious IPs
+4. Fraud detection	✅ Rapid purchases, bot patterns, suspicious IPs
 
-Waitlists	✅ For sold-out events, auto-notify when tickets available
+5. Waitlists	✅ For sold-out events, auto-notify when tickets available
 
 - The Complete Predictive Loop
 
@@ -83,12 +83,12 @@ ZIP processes payment again → Repeat
 - 
 Question	                                Answer
 
-Does ZIP handle AI pricing?	              ✅ YES
+1. Does ZIP handle AI pricing?	              ✅ YES
 
-Does ZIP handle user tracking?	           ✅ YES
+2. Does ZIP handle user tracking?	           ✅ YES
 
-Does ZIP handle payments?                	  ✅ YES (Stripe/PayPal)
+3. Does ZIP handle payments?                	  ✅ YES (Stripe/PayPal)
 
-Does ZIP handle resell targeting?	          ✅ YES
+4. Does ZIP handle resell targeting?	          ✅ YES
 
-Is this the complete requirement?	           ✅ YES
+5. Is this the complete requirement?	           ✅ YES
