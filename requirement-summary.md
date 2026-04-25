@@ -80,7 +80,7 @@ ZIP processes payment again → Repeat
 ```
 
 - Final Confirmation
-- 
+  
 Question	                                Answer
 
 1. Does ZIP handle AI pricing?	              ✅ YES
