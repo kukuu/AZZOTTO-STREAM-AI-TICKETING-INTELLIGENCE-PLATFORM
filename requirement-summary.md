@@ -1,4 +1,4 @@
-# Requirement Ssummary
+# Requirement Summary
 
 - AI Intelligence Layer
 
